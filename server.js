@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -45,13 +44,3 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-=======
-const express        = require('express');
-const bodyParser     = require('body-parser');
-const app            = express();
-
-const port = 8000;
-app.listen(port, () => {
-  console.log('We are live on ' + port);
-});
->>>>>>> parent of 06635fb... fix port
